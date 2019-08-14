@@ -27,3 +27,4 @@ class Task < ApplicationRecord
     update(deadline: deadline + 1.hour)
   end
 end
+
